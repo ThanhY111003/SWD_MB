@@ -1,5 +1,19 @@
+# Flutter/Dart specific
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+build/
+
+# Node.js dependencies (if using Node.js)
+node_modules/
+dist/
+dist-ssr/
+*.local
+
 # Logs
-logs
+logs/
 *.log
 npm-debug.log*
 yarn-debug.log*
@@ -7,16 +21,24 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
-
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
-.idea
+.idea/
+
+# macOS
 .DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Flutter build directory (for Android and iOS builds)
+android/build/
+ios/Flutter/Flutter.framework/
+ios/Flutter/Flutter.podspec
+
+# Other common files that should be ignored
 *.suo
 *.ntvs*
 *.njsproj
