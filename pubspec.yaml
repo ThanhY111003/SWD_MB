@@ -1,5 +1,5 @@
 name: swd_mb
-description: A new Flutter project for Lab Management
+description: Lab Management Flutter App
 
 dependencies:
   flutter:
